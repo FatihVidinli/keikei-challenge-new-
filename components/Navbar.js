@@ -6,7 +6,7 @@ function  Navbarco() {
     <input type="checkbox" id="menu-toggle"></input>
       <div className="container">
     <div className="header">
-        <label className="hamburger-menu" for="menu-toggle">
+        <label className="hamburger-menu" htmlFor="menu-toggle">
             <span></span>
         </label>
         <a href="#" id="logos" className="logo">
@@ -15,26 +15,26 @@ function  Navbarco() {
         <div className="actions">
         <i class="fas fa-search"></i>
         </div>
-        <label for="menu-toggle" className="backdrop"></label>
+        <label htmlFor="menu-toggle" className="backdrop"></label>
     </div>
 </div>
 
 <nav className="menu">
     <ul>
         <li>
-            <a href="#">KEİKEİ</a>
+            <a href="#">ÜRÜNLER</a>
         </li>
         <li>
-            <a href="#">KEİKEİ</a>
+            <a href="#">HAKKIMIZDA</a>
         </li>
         <li>
-            <a href="#">KEİKEİ</a>
+            <a href="#">VİZYON</a>
         </li>
         <li>
-            <a href="#">KEİKEİ</a>
+            <a href="#">MİSYON</a>
         </li>
         <li>
-            <a href="#">KEİKEİ</a>
+            <a href="#">İLETİŞİM</a>
         </li>
     </ul>
 </nav>

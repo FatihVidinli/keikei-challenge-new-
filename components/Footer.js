@@ -38,8 +38,9 @@ function  Footer() {
             </ul>
             <ul>
               <li><strong>Uygulamamızı İndirin</strong></li>
-              <li><img src="app.png"></img></li>
+              <li><img id="app" src="app.png"></img></li>
               <li><img src="play-store.png"></img></li>
+              
             </ul>
             </div>
           </div>

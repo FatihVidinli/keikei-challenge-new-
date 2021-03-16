@@ -237,6 +237,7 @@ html, body {
     grid-template-columns: repeat(2,1fr);
     .content{
         margin: 80px 80px;
+        
         button{
             border: 1px solid black;
             background-color: transparent;
@@ -244,6 +245,7 @@ html, body {
             height: 30px;
             width: 150px;
             margin-top: 15px;
+            cursor: pointer;
         }
     }
     .contents{
@@ -259,9 +261,10 @@ html, body {
             height: 30px;
             width: 150px;
             margin-top: 15px;
+            cursor: pointer;
         }
     }
-}
+} 
 .footer{
     background-color: rgb(247, 247, 247);
     padding: 100px 30px;
@@ -340,20 +343,28 @@ html, body {
         padding-bottom: 30px;
     }
     ul li{
+       
         color: black;
         padding-top: 10px;
         text-align: center;
         cursor: pointer;
         img{
-            max-width: 200px;
-            max-height: 200px;
+           max-width: 200px;
+           max-height: 200px;
+           color: black;
         }
         input{
             border-bottom: 1px solid black;
         }
     }
 }
+#app{
+    height: 50px;
+    width: 175px;
+
+}
 .section3-title{
+    padding: 20px 30px;
     cursor: pointer;
     p{
         padding-left: 50px;
@@ -368,9 +379,10 @@ html, body {
    
 }
 .section5{
+    padding: 10px 30px;
     background-color: rgb(247, 247, 247);
     p{
-        padding-left: 50px;
+        padding: 20px 0 0 50px;
         max-width: 250px;
         color: black;
         border-bottom: 1px solid black;
@@ -381,7 +393,7 @@ html, body {
     .swiper-slide:nth-child(even){
         
         img{
-           max-height: 250px;
+           max-height: 350px;
            bottom: 0;
            
        }
@@ -423,9 +435,11 @@ html, body {
     .grid-content{
         .content{
             margin-top: 300px;
+            margin-left: 50px;
         }
         .contents{
             margin-top: 300px;
+            
             order: 2;
         }
     } 
@@ -459,10 +473,11 @@ html, body {
     .grid-content{
         .content{
             margin-top: 300px;
-            margin-left: 200px;
+            margin-left: 250px;
         }
         .contents{
             margin-top: 300px;
+            
             order: 2;
           
         }
